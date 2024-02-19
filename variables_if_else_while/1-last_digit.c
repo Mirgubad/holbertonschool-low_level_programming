@@ -17,7 +17,7 @@ int main(void)
 
                 printf("%d is greater than 5",n)
         }
-        else if(lastDigit==0){
+        else if(n==0){
 
                 printf("%d is 0",n)
         }
