@@ -7,7 +7,7 @@
 int main(void)
 {
 	char word[] = "__putchar";
-	int length = sizeof(word)
+	int length = sizeof(word);
 	int i;
 	
 	for (i = 0; i < length; i++)
