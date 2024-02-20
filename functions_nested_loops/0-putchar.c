@@ -7,10 +7,11 @@
 int main(void)
 {
 	char word[] = "__putchar";
+	int length = sizeof(word)
 	char ch;
 	int i;
 	
-	for (i = 0; i <word.length; i++)
+	for (i = 0; i < length; i++)
 	_putchar(word[i]);
 
 	return (0);
