@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-        char ch;
-        
+	char ch;
+
 	for (ch = 'z'; ch >= 'a'; ch--)
 		putchar(ch);
 
