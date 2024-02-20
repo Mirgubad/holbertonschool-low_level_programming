@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char word[] = "__putchar";
+	char word[] = "_putchar";
 	int length = sizeof(word);
 	int i;
 	
