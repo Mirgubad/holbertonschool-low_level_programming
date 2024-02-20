@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
  * main - Entry point
  *
@@ -6,12 +6,7 @@
  */
 int main(void)
 {
-	printText(void)
-	{
-		printf("__putchar");
-		printf("\n");
-	}
-
-	printText();
+	_putchar("__putchar");
+	_putchar("\n");
 	return (0);
 }
