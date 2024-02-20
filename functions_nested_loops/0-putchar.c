@@ -12,8 +12,6 @@ int main(void)
 	
 	for (i = 0; i < length; i++)
 		_putchar(word[i]);
-
-	_putchar('\n');
-
+	
 	return (0);
 }
