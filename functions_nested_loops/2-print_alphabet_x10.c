@@ -2,16 +2,22 @@
 /**
  * main - Prints "alphabet" 10x
  *
- * Return: Always 0.
+ * Return: ""
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	char word[] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	int n, co;
 
-	for (i = 0;i < 10; i++)
-		print_alphabet_x10(word);
+	co = 0;
 
-	return (0);
+	while (co < 10)
+	{
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(n);
+		}
+		co++;
+		_putchar('\n');
+	}
 }
